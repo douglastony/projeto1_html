@@ -1,0 +1,220 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    padding: 16px 0;
+    background-color: rgba(30, 130, 76, 1);
+    color: white;
+    align-items: center;
+}
+
+header .container {
+    max-width: 1300px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.logo-block{
+    display: flex;
+    align-items: center;
+}
+
+header.container,
+section .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;;
+}
+
+header nav li {
+    display: inline;
+    padding-left: 16px;
+    font-size: 18px;
+}
+
+header nav li a {
+    color: white;
+    text-decoration: none;
+}
+
+header nav li a:hover {
+    text-decoration: underline;
+}
+
+header img{
+    width: 48px;
+}
+.logo-block li{
+    display: inline;
+    align-items: flex-start;
+}
+
+#about .container{
+    background-color: rgba(104, 195, 163, 0.8);
+    padding: 16px;
+    align-items: flex-start;
+}
+
+.container .about-images,
+.container .aboutus{
+    width: 500px;
+}
+
+#about .aboutimg {
+    width: 120%;
+    border-radius: 16px;
+    margin-bottom: 16px;
+}
+
+.about-images li{
+    display: inline;
+}
+
+#about{
+    display: inline;
+}
+
+.aboutus h2{
+    color: white;
+}
+
+.boxes li{
+    color: white;
+    padding: 16px;
+    border-radius: 16px;
+    margin-bottom: 8px;
+    list-style: none;
+    justify-items: center;
+}
+
+.boxes li a{
+    color:white;
+    text-decoration: none;
+}
+
+.box0{
+    background-color: rgba(200, 247, 197, 1);
+}
+.box1{
+    background-color: rgba(183, 244, 216, 1);
+}
+.box2{
+    background-color: rgba(147, 250, 165, 1);
+}
+.box3{
+    background-color: rgba(46, 204, 113, 1);
+}
+.box4{
+    background-color: rgb(39, 168, 93);
+}
+
+.box5,
+.box0:hover,
+.box1:hover,    
+.box2:hover,
+.box3:hover,
+.box4:hover{
+    background-color: rgba(30, 130, 76, 1);
+}
+
+#contacts .container{
+    background-color: rgba(200, 247, 197, 1);
+    display: block;
+}
+
+.social-links li{
+    display: inline;
+}
+.social-links li a{
+    text-decoration: none;
+    padding-right: 8px;
+}
+
+.social-links li img{
+    width: 24px;
+}
+
+.contact-methods{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 16px;
+}
+
+#contacts .container h2{
+    padding-left: 16px;
+}
+
+form input,
+form button,
+form textarea{
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+    margin-top: 0;
+}
+
+form textarea{
+    resize: none;
+    height: 180px;
+}
+
+form button{
+    background-color: rgba(30, 130, 76, 1);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.contact-methods ul{
+    padding-left: 16px;
+}
+
+footer .container{
+    background-color: rgba(30, 130, 76, 1);
+    align-items: end ;
+    justify-content: space-between;
+    display: flex;
+    padding: 0 8px;
+}
+
+footer .container h3{
+    color: white;
+}
+
+.social-links .youtube-logo{
+    width: 52px;
+}
+
+footer .registered{
+    color: white;
+    ;
+}
+
+* {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+}
+
+header h1,
+#contacts h2,
+.contact-methods h3,
+.wherefind h4,
+footer h3{
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
